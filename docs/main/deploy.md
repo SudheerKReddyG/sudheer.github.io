@@ -1,4 +1,4 @@
-# How to deploy MKDOCS Project - sudheer
+# How to deploy MKDOCS Project
 
 ## How to create new mkdocs project
 <pre><code class="shell">C:\Users\sudhe>py -m mkdocs new sudheer</code></pre>
