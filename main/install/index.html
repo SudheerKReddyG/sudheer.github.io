@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Versions - Sudheer Reddy G</title>
+        <title>How to Install Python and Setup MKDOCS - Sudheer Reddy G</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -33,29 +33,29 @@
                             <li class="navitem">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../main/install/" class="dropdown-item">How to Install Python and Setup MKDOCS</a>
+    <a href="./" class="dropdown-item active">How to Install Python and Setup MKDOCS</a>
 </li>
                                     
 <li>
-    <a href="../../main/deploy/" class="dropdown-item">How to deploy MKDOCS Project - sudheer</a>
+    <a href="../deploy/" class="dropdown-item">How to deploy MKDOCS Project - sudheer</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Versions</a>
+    <a href="../../su/versions/" class="dropdown-item">Versions</a>
 </li>
                                     
 <li>
-    <a href="../releasenotes/" class="dropdown-item">Release Notes</a>
+    <a href="../../su/releasenotes/" class="dropdown-item">Release Notes</a>
 </li>
                                 </ul>
                             </li>
@@ -71,12 +71,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../main/deploy/" class="nav-link">
+                                <a rel="prev" href="../.." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../releasenotes/" class="nav-link">
+                                <a rel="next" href="../deploy/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -98,9 +98,37 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#versions" class="nav-link">Versions</a>
+            <li class="nav-item" data-level="1"><a href="#how-to-install-python-and-setup-mkdocs" class="nav-link">How to Install Python and Setup MKDOCS</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#v100" class="nav-link">v1.0.0</a>
+            <li class="nav-item" data-level="2"><a href="#install-python" class="nav-link">Install Python</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#check-the-python-version" class="nav-link">Check the Python version</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#install-pyhon-plugin-visual-studio-code" class="nav-link">Install Pyhon plugin visual studio code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#install-plugins-for-mkdocs" class="nav-link">Install Plugins for MKDOCS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#create-new-mkdocs-project" class="nav-link">Create new MKDOCS Project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#start-the-app-on-localhost" class="nav-link">Start the app on localhost</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#build-the-code" class="nav-link">Build the code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#deploy-code-on-pages" class="nav-link">Deploy code on Pages</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -111,12 +139,36 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="versions">Versions</h1>
-<hr />
-<h2 id="v100">v1.0.0</h2>
-<ul>
-<li><a href="https://sudheerkreddyg.github.io/sudheer.github.io/">📦 PyPI: Build 1.0.0</a> <code>2023-09-13</code></li>
-</ul></div>
+<h1 id="how-to-install-python-and-setup-mkdocs">How to Install Python and Setup MKDOCS</h1>
+<h2 id="install-python">Install Python</h2>
+<pre><code class="shell">https://www.python.org/downloads/</code></pre>
+
+<h2 id="check-the-python-version">Check the Python version</h2>
+<pre><code class="shell">py --version</code></pre>
+
+<h2 id="install-pyhon-plugin-visual-studio-code">Install Pyhon plugin visual studio code</h2>
+<pre><code class="shell">python -> Install</code></pre>
+
+<h2 id="install-plugins-for-mkdocs">Install Plugins for MKDOCS</h2>
+<pre><code class="shell">pyhon -m pip install mkdocs --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+
+<pre><code class="shell">pyhon -m pip install --upgrade pip --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+
+<pre><code class="shell">pyhon -m pip install mkdocs-material --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+
+<pre><code class="shell">pyhon -m pip install mkdocs-git-version-date-localized-plugin --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+
+<h2 id="create-new-mkdocs-project">Create new MKDOCS Project</h2>
+<pre><code class="shell">py -m mkdocs new <Project Name></code></pre>
+
+<h2 id="start-the-app-on-localhost">Start the app on localhost</h2>
+<pre><code class="shell">py -m mkdocs serve</code></pre>
+
+<h2 id="build-the-code">Build the code</h2>
+<pre><code class="shell">py -m mkdocs build</code></pre>
+
+<h2 id="deploy-code-on-pages">Deploy code on Pages</h2>
+<pre><code class="shell">py -m mkdocs gh-deploy</code></pre></div>
             </div>
         </div>
 
