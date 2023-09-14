@@ -10,5 +10,8 @@ nav:
       - su/versions.md
       - su/releasenotes.md
     - About: about.md
+    
+hide:
+  - footer
 
 copyright: Copyright &copy; 2023 Sudheer Reddy G
