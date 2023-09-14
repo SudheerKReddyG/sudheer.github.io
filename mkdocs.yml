@@ -3,7 +3,9 @@ copyright: Sudheer Reddy G
 
 nav:
     - Home: index.md
-    - Getting Started: main/started.md
+    - Getting Started: 
+      - main/install.md
+      - main/deploy.md
     - Development:
       - su/versions.md
       - su/releasenotes.md
