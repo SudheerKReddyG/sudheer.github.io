@@ -1,3 +1,3 @@
-# How to deploy MKDOCS Project
+# Welcome
 
-Please check in the Getting Started Menu for Stepsss
+Check Get Started for Python installation and MKDOCS Setup and deploy
