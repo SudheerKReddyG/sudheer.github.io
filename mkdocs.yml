@@ -33,6 +33,9 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
 
+extra:
+  generator: false
+
 nav:
     - Home: index.md
     - Getting Started: 
