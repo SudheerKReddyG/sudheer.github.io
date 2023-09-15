@@ -1,6 +1,38 @@
 site_name: Sudheer Reddy G
 copyright: Sudheer Reddy G
 
+site_description: "My Project."
+
+repo_url: https://github.com/SudheerKReddyG/sudheer.github.io
+repo_name: SudheerKReddyG/sudheer.github.io
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+  name: "material"
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: "blue"
+      accent: "grey"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: "black"
+      accent: "white"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
 nav:
     - Home: index.md
     - Getting Started: 
@@ -10,8 +42,5 @@ nav:
       - su/versions.md
       - su/releasenotes.md
     - About: about.md
-    
-hide:
-  - footer
 
 copyright: Copyright &copy; 2023 Sudheer Reddy G
