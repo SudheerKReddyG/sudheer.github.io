@@ -8,7 +8,7 @@
 
 <pre><code class="shell">py --version</code></pre>
 
-## Install Pyhon plugin visual studio code
+## Install Python plugin visual studio code
 
 <pre><code class="shell">python -> Install</code></pre>
 
