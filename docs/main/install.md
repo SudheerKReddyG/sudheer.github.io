@@ -14,13 +14,13 @@
 
 ## Install Plugins for MKDOCS
 
-<pre><code class="shell">pyhon -m pip install mkdocs --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+<pre><code class="shell">python -m pip install mkdocs --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
 
-<pre><code class="shell">pyhon -m pip install --upgrade pip --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+<pre><code class="shell">python -m pip install --upgrade pip --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
 
-<pre><code class="shell">pyhon -m pip install mkdocs-material --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+<pre><code class="shell">python -m pip install mkdocs-material --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
 
-<pre><code class="shell">pyhon -m pip install mkdocs-git-version-date-localized-plugin --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
+<pre><code class="shell">python -m pip install mkdocs-git-version-date-localized-plugin --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user</code></pre>
 
 ## Create new MKDOCS Project
 
